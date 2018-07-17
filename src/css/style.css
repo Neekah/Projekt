@@ -198,10 +198,56 @@ nav ul li:hover > ul {
     font-size: 18px; 
 }
 
+.contact-section {
+    box-shadow: 4px 4px 24px 1px rgba(224,9,134,0.75); 
+    margin: 40px auto; 
+    max-width: 600px;
+}
+
+form { 
+    margin: 0 auto; 
+    max-width: 500px;
+}
+
 footer {
     background-image: radial-gradient(circle, #72d6c9, #54d1ed, #7ac5ff, #bcb2fe, #f29cd9);
     text-align: center;
     padding: 10px;
+}
+
+label { 
+    display: block; 
+    text-align: center;
+    padding: 15px; 
+    margin: 10px auto;
+}
+
+input { 
+    display: block; 
+    margin: 0 auto; 
+    height: 40px; 
+    padding: 5px; 
+    border: 1px solid #66b8c4; 
+} 
+
+textarea { 
+    height: 100px; 
+    width: 400px; 
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #66b8c4; 
+    display: block; 
+    }
+
+input[type="submit"], [type="reset"] { 
+    margin: 30px auto; 
+    cursor: pointer; 
+    max-width: 200px; 
+    height: 50px; 
+    font-size: 20px; 
+    background: #f29cd9; 
+    display: inline-block; 
+    border: 1px solid #e00986;
 }
 
 footer a {
